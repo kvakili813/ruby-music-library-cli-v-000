@@ -21,6 +21,9 @@ class MusicLibraryController
       name = gets.strip
       if name == "list songs"
         list_songs
+      elsif name == "list artists"
+        list_artists
+        
       end
     end
   end

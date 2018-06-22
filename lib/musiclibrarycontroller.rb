@@ -28,10 +28,10 @@ class MusicLibraryController
       elsif name == "list artist"
         list_songs_by_artist
       elsif name == "list genre"
-        list_songs_by_genre    
+        list_songs_by_genre
       elsif name == "play song"
         play_song
-    
+
       end
     end
   end

@@ -23,7 +23,7 @@ class MusicLibraryController
         list_songs
       elsif name == "list artists"
         list_artists
-        
+
       end
     end
   end
